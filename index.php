@@ -56,7 +56,6 @@ echo '</td></tr></tbody></table>';
 	<?php  
 include('./config.php');  
 	  
-//$connect = mysqli_connect("localhost", "root", "vertrigo", "csv");
 if(isset($_POST["submit"]))
 {
 if($_FILES['file']['name'])

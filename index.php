@@ -71,7 +71,7 @@ if($_FILES['file']['name'])
         $item3 = mysqli_real_escape_string($mysqli,$data[2]);
 	   	$item4 = mysqli_real_escape_string($mysqli,$data[3]);
 	   	$query = "INSERT into data(id,jmeno,prijmeni,date) values('$item1','$item2','$item3','$item4')";
-	   		echo $query;
+	   		//echo $query;
             mysqli_query($mysqli, $query);
    }
    fclose($handle);

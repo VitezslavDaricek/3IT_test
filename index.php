@@ -75,7 +75,7 @@ if($_FILES['file']['name'])
             mysqli_query($mysqli, $query);
    }
    fclose($handle);
-   echo "<script>alert('Import done');</script>";
+   echo "<script>alert('Import byl úspěšně dokončený.');</script>";
   }
 }
 }
